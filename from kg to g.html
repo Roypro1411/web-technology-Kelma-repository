@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>KG to Grams</title>
+</head>
+<body>
+
+    <h2>KG to Grams Converter</h2>
+
+    <input type="number" id="kg" placeholder="Enter kg">
+
+    <button onclick="
+        let kg = document.getElementById('kg').value;
+        let g = kg * 1000;
+        document.getElementById('result').innerHTML = g + ' grams';
+    ">Convert</button>
+
+    <p id="result"></p>
+
+</body>
+</html>
